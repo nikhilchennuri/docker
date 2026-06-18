@@ -1,5 +1,5 @@
-FROM amlalinux:9.0
+FROM amlalinux:9
 RUN dnf install nginx -y
 RUN rm -rf /usr/share/nginx/html/index.html
 COPY index.html /usr/share/nginx/html/index.html
-CMD ["nginx","-g","daemon off"]
+CMD ["nginx","-g","daemon off;"]
