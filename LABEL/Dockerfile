@@ -1,4 +1,4 @@
 FROM almalinux:9
-LABEL ADDRESS="102"/
-      STREET_no="2"/
+LABEL ADDRESS="102"\
+      STREET="2"\
       NAME="sree"
